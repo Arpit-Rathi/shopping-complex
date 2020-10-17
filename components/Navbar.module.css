@@ -1,0 +1,29 @@
+.navbar {
+    height: 60px;
+    background-color: #1e1e1e;
+    color: #ebebeb;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.navbar__left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left > img {
+    width: 60px;
+    object-fit: contain;
+    margin-right: 60px;
+}
+
+.navbar__left > span {
+    padding-right: 20px;
+}
+
+.navbar span {
+    cursor: pointer;
+}
